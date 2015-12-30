@@ -1,9 +1,10 @@
 # shaynes.github.io
 
-Website for Shari Haynes
+Website designed by Shari for Shari Haynes
+
 Includes the following pages
--Home 
--About Me
--Resume
--Projects
--Contact
+  - Home 
+  - About Me
+  - Resume
+  - Projects
+  - Contact
