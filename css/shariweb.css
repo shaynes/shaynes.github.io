@@ -1,0 +1,161 @@
+@CHARSET "ISO-8859-1";
+
+.resume-subheader{
+	background-color: "grey";
+}
+
+.site-header{
+	height: 257px; 
+	text-align: center;
+	background-image: url("headerImage.jpg") no-repeat top center;
+}
+
+.mainPageDiv{
+	text-align: right;
+	background-image: url("lightBluePortrait.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: fixed;
+	min-height: 100vh;
+	left: 0;
+	top: 0;
+	min-width: 100%;
+	background-position: left;
+}
+
+.childPageDiv{
+	text-align: right;
+	background-image: url("plainbackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: fixed;
+	min-height: 100vh;
+	left: 0;
+	top: 0;
+	min-width: 100%;
+	background-position: right;
+}
+
+.topPageDiv{
+	background-color: black;
+	height: 7vh;
+}
+
+.bottomPageDiv{
+	background-color:black;
+	height: 10vh
+}
+
+.buttonDiv{
+    background-color: black;
+    min-width: 30vw;
+    min-height: 10vh;
+    margin: 2vh 0vh;
+    max-width: 20em;
+    max-height: 3em;
+    text-align: center;
+    display: inline-block;
+    vertical-align:middle;
+}
+
+.link_button{
+	background-color: black;
+    min-width: 30vw;
+    min-height: 10vh;
+    margin: 2vh 0vh;
+    max-width: 20em;
+    max-height: 3em;
+    text-align: center;
+    display: inline-block;
+    vertical-align:middle;
+    color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 5vh;
+	text-decoration: none;
+}
+
+.link_button:hover{
+	background-color: rgb(7, 168, 175);
+}
+
+
+
+#aboutText{
+	background-color: rgba(0, 0, 0, .75);
+	height:80vh;
+	width: 60vw;
+	margin: 10vh 3vw;
+	float: left;
+	overflow:auto;
+	font-size:3vh;
+	color:white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align:left;
+}
+
+
+.home_link_button{
+	position: absolute;
+	top: 0;
+	left:0;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 5vh;
+	text-decoration: none;
+	background-color: rgb(7, 168, 175);
+	min-width: 35vw;
+	text-align:left;
+	
+}
+
+.home_link_button:hover{
+	background-color: black;
+}
+
+
+.contextLinkHolder{
+	/* display:inline-block; */
+	/* text-align:right; */
+}
+
+.pageNameDiv{
+	position: absolute;
+	bottom: 0px;
+	min-width: 55vw;
+	min-height:10vh;
+	right: 0px;
+	background-color: rgb(7, 168, 175);
+}
+
+#nameDiv{
+	position: absolute;
+	bottom: 0px;
+	min-width: 55vw;
+	min-height:10vh;
+	right: 0px;
+	background-color: rgb(7, 168, 175);
+}
+
+.nameText{
+	color:black;
+	font-size:10vh;
+	font-family: 'Open Sans Condensed', sans-serif;	
+	float:right;
+}
+
+.buttonDiv:hover{
+	background-color: rgb(7, 168, 175);
+}
+
+.buttonText{
+	
+}
+
+#wrapper{
+	display:block;
+}
+
+#buttonHolder{
+	width: 30vw;
+	display: inline-block;
+}
