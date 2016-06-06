@@ -119,14 +119,14 @@
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 5vh;
 	text-decoration: none;
-	background-color: rgb(7, 168, 175);
+	background-color: black;
 	min-width: 35vw;
 	text-align:left;
 	
 }
 
 .home_link_button:hover{
-	background-color: black;
+	background-color: rgb(7, 168, 175);
 }
 
 
