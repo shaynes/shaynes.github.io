@@ -93,9 +93,6 @@
 .link_button:hover{
 	background-color: rgb(7, 168, 175);
 }
-
-
-
 #aboutText{
 	background-color: rgba(0, 0, 0, .75);
 	height:80vh;
@@ -107,8 +104,24 @@
 	color:white;
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-align:left;
-
 }
+
+
+#resumeText{
+	background-color: rgba(0, 0, 0, .75);
+	height:80vh;
+	width: 60vw;
+	margin: 10vh 3vw;
+	float: left;
+	overflow:auto;
+	font-size:3vh;
+	color:white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align:left;
+	box-shadow: inset 10px -38px 43px -24px #9e939e
+}
+
+
 
 
 .home_link_button{
