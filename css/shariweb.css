@@ -59,7 +59,7 @@
 }
 
 .link_button{
-	background-color: black;
+    background-color: black;
     min-width: 30vw;
     min-height: 10vh;
     margin: 2vh 0vh;
@@ -72,6 +72,22 @@
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 5vh;
 	text-decoration: none;
+}
+
+.link_button_onpage{
+    background-color:  rgb(7, 168, 175);
+    min-width: 30vw;
+    min-height: 10vh;
+    margin: 2vh 0vh;
+    max-width: 20em;
+    max-height: 3em;
+    text-align: center;
+    display: inline-block;
+    vertical-align:middle;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 5vh;
+    text-decoration: none;	
 }
 
 .link_button:hover{
